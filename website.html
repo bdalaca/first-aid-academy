@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Site</title>
+  <link rel="stylesheet" href="./bootstrap.css">
+  <link rel="stylesheet" href="./new.css">
+  <link rel="stylesheet" href="./neww.css">
+  <link rel="stylesheet" href="./website.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
+
+</head>
+
+<body>
+  <div class="">
+    <nav class="navbar navbar-expand-lg navbar-light pt-4 ps-2 py-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <svg width="66" height="63" viewBox="0 0 48 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M37.2389 21.0919C36.7332 21.0919 36.3227 21.5022 36.3227 22.0077C36.3227 22.5133 36.7332 22.9236 37.2389 22.9236C37.7446 22.9236 38.155 22.5133 38.155 22.0077C38.155 21.5022 37.7446 21.0919 37.2389 21.0919Z"
+              fill="#285995" />
+            <path
+              d="M11.5871 21.0919C11.0814 21.0919 10.671 21.5022 10.671 22.0077C10.671 22.5133 11.0814 22.9236 11.5871 22.9236C12.0928 22.9236 12.5033 22.5133 12.5033 22.0077C12.5033 21.5022 12.0928 21.0919 11.5871 21.0919Z"
+              fill="#285995" />
+            <path
+              d="M32.6582 24.7552H28.0775V20.1761C28.0775 19.6704 27.6673 19.2603 27.1614 19.2603H21.6646C21.1587 19.2603 20.7485 19.6704 20.7485 20.1761V24.7552H16.1678C15.6619 24.7552 15.2517 25.1653 15.2517 25.671V31.1659C15.2517 31.6716 15.6619 32.0817 16.1678 32.0817H20.7485V36.6608C20.7485 37.1665 21.1587 37.5766 21.6646 37.5766H27.1614C27.6673 37.5766 28.0775 37.1665 28.0775 36.6608V32.0817H32.6582C33.1641 32.0817 33.5743 31.6716 33.5743 31.1659V25.671C33.5743 25.1653 33.1641 24.7552 32.6582 24.7552ZM31.7421 30.2501H27.1614C26.6555 30.2501 26.2453 30.6602 26.2453 31.1659V35.745H22.5807V31.1659C22.5807 30.6602 22.1705 30.2501 21.6646 30.2501H17.0839V26.5868H21.6646C22.1705 26.5868 22.5807 26.1767 22.5807 25.671V21.0919H26.2453V25.671C26.2453 26.1767 26.6555 26.5868 27.1614 26.5868H31.7421V30.2501Z"
+              fill="#285995" />
+            <path
+              d="M43.2853 11.9337H36.3227V6.43876C36.3227 3.40887 33.8569 0.943848 30.8259 0.943848H18.0001C14.9691 0.943848 12.5033 3.40887 12.5033 6.43876V11.9337H5.54066C3.01488 11.9337 0.959991 13.9879 0.959991 16.5128V40.3241C0.959991 42.849 3.01488 44.9032 5.54066 44.9032H43.2853C45.8111 44.9032 47.866 42.849 47.866 40.3241V16.5128C47.866 13.9879 45.8111 11.9337 43.2853 11.9337ZM14.3355 6.43876C14.3355 4.41883 15.9794 2.77549 18.0001 2.77549H30.8259C32.8465 2.77549 34.4905 4.41883 34.4905 6.43876V11.9337H32.6582V7.35458C32.6582 5.83964 31.4253 4.60713 29.9098 4.60713H18.9162C17.4007 4.60713 16.1678 5.83964 16.1678 7.35458V11.9337H14.3355V6.43876ZM30.8259 7.35458V11.9337H18.0001V7.35458C18.0001 6.8496 18.411 6.43876 18.9162 6.43876H29.9098C30.4149 6.43876 30.8259 6.8496 30.8259 7.35458ZM7.00647 43.0715H5.54066C4.02519 43.0715 2.79226 41.839 2.79226 40.3241V16.5128C2.79226 14.9978 4.02519 13.7653 5.54066 13.7653H7.00647V43.0715ZM39.9873 43.0715H38.155V25.671C38.155 25.1653 37.7447 24.7552 37.2389 24.7552C36.733 24.7552 36.3227 25.1653 36.3227 25.671V43.0715H12.5033V25.671C12.5033 25.1653 12.093 24.7552 11.5871 24.7552C11.0812 24.7552 10.671 25.1653 10.671 25.671V43.0715H8.83873V13.7653H10.671V18.3444C10.671 18.8501 11.0812 19.2602 11.5871 19.2602C12.093 19.2602 12.5033 18.8501 12.5033 18.3444V13.7653H36.3227V18.3444C36.3227 18.8501 36.733 19.2602 37.2389 19.2602C37.7447 19.2602 38.155 18.8501 38.155 18.3444V13.7653H39.9873V43.0715ZM46.0337 40.3241C46.0337 41.839 44.8008 43.0715 43.2853 43.0715H41.8195V13.7653H43.2853C44.8008 13.7653 46.0337 14.9978 46.0337 16.5128V40.3241Z"
+              fill="#285995" />
+          </svg>
+  
+        </a>
+        <div class="row d-inline">
+          <div class="row me-5 pt-3">
+            <h2 class="baslik">First Aid</h2>
+          </div>
+          <div class="row">
+            <h2 class="baslik"> Academy</h2>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse ps-5 " id="navbarSupportedContent">
+          <ul class="nav navbar-nav mx-auto text-md-center ps-5 ">
+            <li class="tıkla nav-item px-4">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="tıkla nav-item px-5">
+              <a class="nav-link active" href="#">About Us</a>
+            </li>
+  
+            <li class="tıkla nav-item px-5 ">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Offer</a>
+            </li>
+            <li class="tıkla nav-item px-5">
+              <a class="nav-link active" aria-current="page" href="#">Training Dates</a>
+            </li>
+            <li class="tıkla nav-item px-5">
+              <a class="nav-link active" href="#">Price List</a>
+            </li>
+            <li class="tıkla nav-item px-5">
+              <a class="nav-link active" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex pe-3">
+            <button class="btn text-white rounded-pill" style="background-color:#285995;" type="submit">SIGN UP</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="kfg pb-4">Professional <br> first aid courses</h1>
+          <h2 class="kfg">Prepare For The Unexpected</h2>
+          <p class="paragraf pb-4">Developed And Taught By Experts, Our Convenient Affordable Courses Can Help Your
+            Organization Become OSHA Compliant-And Empower Your Team To Provide Care When It's Needed Most.</p>
+          <form class="d-flex pe-3 ">
+            <button class="btn text-white rounded-pill px-5 py-3 ms-3 mt-3" style="background-color:#285995;"
+              type="submit">SIGN UP</button>
+          </form>
+  
+        </div>
+        <div class="col-lg-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/cpr-first-aid-training-concept 1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/cpr-first-aid-training-concept 1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/cpr-first-aid-training-concept 1.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <div class="carousel-indicators mt-4">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center py-5">
+        <div class="col-lg">
+          <h2 class="bda">About Us</h2>
+        </div>
+      </div>
+    </div>
+    <div class="yea container-fluid">
+      <div class="row ">
+        <div class="col-lg-4 offset-1  pe-5 pt-5">
+          <div class="my-5 pt-5 pb-5">
+            <h2 class="ra mt-5 pb-3">About our first <br> training</h2>
+            <p class="ra pb-4">We have thousands of training courses accross the country, including a fuil suite of first
+              aid, mentalhealth first aid, risk assessment, fire marshal, moving and handling training courses to meet
+              your needs.</p>
+            <p class="ra pb-4">All of our training courses are classified as essential andwe ensure they are delivered in
+              a COVID-secure way.</p>
+            <a href="#" class="aabb stretched-link mb-5 pt-4">FIND OUT MORE</a>
+          </div>
+        </div>
+        <div class="bk col-lg-6 offset-1"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center py-4">
+        <div class="col-lg">
+          <h2 class="bda ">Offer</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mb-5 ">
+        <div class="col-lg-4 offset-md-1  pe-5 pt-5">
+          <div class=" pt-4 pe-5 pb-5">
+            <h2 class="abc mt-5 pb-3">First Aid Training</h2>
+            <div class="mb-4" style="width: 30px; height: 2px; border-top: #285995 3px solid;"></div>
+            <p class="abc pb-4">Whether you take an in-person class, an online course, or take advantage of our Simulation
+              Learning experience, which combines online coursework with in-person training, you'll learn from some of the
+              best in the industry.</p>
+            <form class="d-flex">
+              <button class="btn text-white rounded-pill px-5 py-3 " style="background-color:#285995;" type="submit">READ
+                MORE </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-1 mb-1 pe-5">
+          <img class="ab image-fluid" src="image/image 26.png" alt="">
+        </div>
+      </div>
+  
+    </div>
+    <div class="container pt-4">
+      <div class="row my-5 pt-5">
+        <div class="col-lg-8 mt-5">
+          <img class="aaa img-fluid" src="image/image 27.png" alt="">
+        </div>
+        <div class="col-lg-4 mt-5 ">
+          <div class=" pt-5">
+            <h2 class="abc pt-5 pb-4">Performing First Aid</h2>
+            <div style="width: 30px; height: 2px; border-top: #285995 3px solid;"></div>
+            <p class="abc pt-3 pb-3">At the First Aid Academy, first aid training prepares you to provide care to both
+              children and adults during times of crisis. However, like many things, if you don't use your skills
+              frequently, they're easy to forget.</p>
+            <form class="d-flex">
+              <button class="btn text-white rounded-pill px-5 py-3 " style="background-color:#285995;" type="submit">READ
+                MORE </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row my-5 pt-5 mt-5">
+        <div class="col-lg-5 mt-5">
+          <h2 class="abc pt-5 py-4">Medical store</h2>
+          <div class="pb-4" style="width: 30px; height: 2px; border-top: #285995 3px solid;"></div>
+          <p class="abc pb-3">See our offer of AED defibrillators, medical equipment and training equipment. Reputable
+            brands, attractive prices. Ask for an offer.</p>
+          <form class="d-flex">
+            <button class="btn text-white rounded-pill px-5 py-3 " style="background-color:#285995;" type="submit">READ
+              MORE </button>
+          </form>
+        </div>
+        <div class="col-lg-6 offset-1 mt-5">
+          <img class="bbb image-fluid" src="image/front-view-composition-of-medical-still-life-elements 1.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row text-center my-5">
+        <div class="col-lg pt-5 mt-4">
+          <h2 class="bda mt-5 pt-5">Price List</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="alengirli col-lg-3">
+          <div class="card border-0">
+            <div class="card-body px-0">
+              <div class="text-center pb-4">
+                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M30.4633 4.44675C30.2048 4.18767 29.7847 4.18767 29.5262 4.44675C29.2671 4.70515 29.2671 5.12517 29.5262 5.38358C29.7847 5.64265 30.2048 5.64265 30.4633 5.38358C30.7224 5.12523 30.7224 4.70515 30.4633 4.44675Z"
+                    fill="#285995" />
+                  <path
+                    d="M23.0645 17.143C22.806 16.884 22.3859 16.884 22.1275 17.143C21.8683 17.4013 21.8683 17.8211 22.1275 18.0794C22.3859 18.3384 22.806 18.3384 23.0645 18.0794C23.3236 17.8211 23.3236 17.4013 23.0645 17.143Z"
+                    fill="#285995" />
+                  <path
+                    d="M20.4136 14.4927C20.1551 14.2336 19.735 14.2336 19.4766 14.4927C19.2174 14.7511 19.2174 15.1712 19.4766 15.4297C19.735 15.6888 20.1551 15.6888 20.4136 15.4297C20.6726 15.1712 20.6726 14.7511 20.4136 14.4927Z"
+                    fill="#285995" />
+                  <path
+                    d="M20.4136 19.7924C20.1551 19.5334 19.735 19.5334 19.4766 19.7924C19.2174 20.0508 19.2174 20.4707 19.4766 20.7291C19.735 20.9881 20.1551 20.9881 20.4136 20.7291C20.6726 20.4707 20.6726 20.0508 20.4136 19.7924Z"
+                    fill="#285995" />
+                  <path
+                    d="M17.7626 11.8432C17.5042 11.5842 17.0841 11.5842 16.8256 11.8432C16.5665 12.1016 16.5665 12.5217 16.8256 12.7801C17.0841 13.0391 17.5042 13.0391 17.7626 12.7801C18.0218 12.5217 18.0218 12.1016 17.7626 11.8432Z"
+                    fill="#285995" />
+                  <path
+                    d="M17.7626 17.143C17.5042 16.884 17.0841 16.884 16.8256 17.143C16.5665 17.4013 16.5665 17.8211 16.8256 18.0794C17.0841 18.3384 17.5042 18.3384 17.7626 18.0794C18.0218 17.8211 18.0218 17.4013 17.7626 17.143Z"
+                    fill="#285995" />
+                  <path
+                    d="M17.7626 22.4423C17.5042 22.1833 17.0841 22.1833 16.8256 22.4423C16.5665 22.7007 16.5665 23.1206 16.8256 23.379C17.0841 23.638 17.5042 23.638 17.7626 23.379C18.0218 23.1206 18.0218 22.7006 17.7626 22.4423Z"
+                    fill="#285995" />
+                  <path
+                    d="M15.1122 14.4927C14.8537 14.2336 14.4336 14.2336 14.1752 14.4927C13.9161 14.7511 13.9161 15.1712 14.1752 15.4297C14.4336 15.6888 14.8537 15.6888 15.1122 15.4297C15.3713 15.1712 15.3713 14.7511 15.1122 14.4927Z"
+                    fill="#285995" />
+                  <path
+                    d="M15.1122 19.7924C14.8537 19.5334 14.4336 19.5334 14.1752 19.7924C13.9161 20.0508 13.9161 20.4707 14.1752 20.7291C14.4336 20.9881 14.8537 20.9881 15.1122 20.7291C15.3713 20.4707 15.3713 20.0508 15.1122 19.7924Z"
+                    fill="#285995" />
+                  <path
+                    d="M12.4618 17.143C12.2033 16.884 11.7832 16.884 11.5247 17.143C11.2656 17.4013 11.2656 17.8211 11.5247 18.0794C11.7832 18.3384 12.2033 18.3384 12.4618 18.0794C12.7208 17.8211 12.7208 17.4013 12.4618 17.143Z"
+                    fill="#285995" />
+                  <path
+                    d="M27.6027 17.6104L32.1234 13.0913C34.9721 10.2435 34.9725 5.63415 32.1234 2.78611C29.275 -0.0613432 24.6636 -0.0618732 21.8147 2.78611L17.2939 7.30526L12.7732 2.78611C9.92436 -0.0616745 5.31372 -0.0620059 2.4645 2.78611C-0.383996 5.63376 -0.384328 10.2433 2.4645 13.0913L6.9852 17.6105L2.4645 22.1296C-0.38393 24.9773 -0.384261 29.5869 2.46456 32.4348C5.31299 35.2822 9.92436 35.2827 12.7733 32.4348L17.2939 27.9156L21.8147 32.4348C24.6632 35.2823 29.2744 35.2827 32.1234 32.4348C34.9719 29.5871 34.9722 24.9775 32.1234 22.1296L27.6027 17.6104ZM22.7518 3.72309C25.0772 1.39849 28.8608 1.39842 31.1861 3.72309C33.5169 6.05306 33.5172 9.8243 31.1861 12.1545L26.6654 16.6736L18.2312 8.24224L22.7518 3.72309ZM3.40174 12.1545C1.07634 9.83 1.07634 6.04762 3.40174 3.72309C5.7325 1.39312 9.50498 1.39279 11.836 3.72309L16.3567 8.24224L7.92244 16.6737L3.40174 12.1545ZM11.8361 31.4979C9.51074 33.8225 5.727 33.8225 3.4018 31.4979C1.0764 29.1734 1.0764 25.391 3.4018 23.0665L7.9225 18.5474L16.3568 26.9788L11.8361 31.4979ZM8.85967 17.6105L17.294 9.17909L25.7283 17.6105L17.2939 26.042L8.85967 17.6105ZM31.1862 31.4979C28.8608 33.8225 25.0771 33.8225 22.7519 31.4979L18.2312 26.9788L26.6655 18.5474L31.1862 23.0665C33.5116 25.391 33.5116 29.1734 31.1862 31.4979Z"
+                    fill="#285995" />
+                  <path
+                    d="M31.5643 7.31662C31.5156 6.95403 31.1822 6.69976 30.8192 6.74839C30.4565 6.79715 30.2021 7.13059 30.2508 7.49324C30.3902 8.52946 30.0481 9.54587 29.3124 10.2818L26.1972 13.396C25.9384 13.6547 25.9384 14.0741 26.1972 14.3329C26.456 14.5915 26.8755 14.5915 27.1344 14.3328L30.2497 11.2185C31.2802 10.1878 31.7593 8.76551 31.5643 7.31662Z"
+                    fill="#285995" />
+                </svg>
+              </div>
+              <h5 class="gba card-title text-center pb-4">AED COURSE</h5>
+              <ul style="list-style: none;">
+                <li>
+                  <div class="row">
+                    <div class="col-1">
+                      <svg width="10" height="10" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="4" r="3" stroke="#285995" stroke-width="2" />
+                      </svg>
+                    </div>
+                    <div class="col-10 offset-1">
+                      <p> Course covering the principles of the operating external external defibrillators. </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <h2 class="zt zc text-center pb-3">$25
+                <small class="et">
+                  /month
+                </small>
+              </h2>
+              <form class="d-flex justify-content-center pt-1">
+                <button class="btn text-white rounded-pill px-5 py-3 " style="background-color:#285995;"
+                  type="submit">START NOW </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="alengirli col-lg-3">
+          <div class="card border-0">
+            <div class="card-body px-0 ">
+              <div class="text-center pb-4">
+                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M29.3721 22.6428C29.0063 22.6428 28.7094 22.9397 28.7094 23.3054C28.7094 23.6712 29.0063 23.968 29.3721 23.968C29.7379 23.968 30.0349 23.6712 30.0349 23.3054C30.0349 22.9397 29.7379 22.6428 29.3721 22.6428Z"
+                    fill="#285995" />
+                  <path
+                    d="M26.7212 22.6428H25.3957C25.0298 22.6428 24.733 22.9395 24.733 23.3054C24.733 23.6714 25.0298 23.968 25.3957 23.968H26.7212C27.0872 23.968 27.3839 23.6714 27.3839 23.3054C27.3839 22.9395 27.0872 22.6428 26.7212 22.6428Z"
+                    fill="#285995" />
+                  <path
+                    d="M16.3825 17.3431H14.3943V15.3556C14.3943 14.9897 14.0976 14.6931 13.7316 14.6931H11.0807C10.7146 14.6931 10.4179 14.9897 10.4179 15.3556V17.3431H8.42972C8.06369 17.3431 7.76698 17.6397 7.76698 18.0056V20.6556C7.76698 21.0214 8.06369 21.318 8.42972 21.318H10.4179V23.3055C10.4179 23.6714 10.7146 23.968 11.0807 23.968H13.7316C14.0976 23.968 14.3943 23.6714 14.3943 23.3055V21.318H16.3825C16.7485 21.318 17.0453 21.0214 17.0453 20.6556V18.0056C17.0453 17.6397 16.7485 17.3431 16.3825 17.3431ZM15.7198 19.9931H13.7316C13.3656 19.9931 13.0689 20.2897 13.0689 20.6556V22.643H11.7434V20.6556C11.7434 20.2897 11.4467 19.9931 11.0807 19.9931H9.09245V18.6681H11.0807C11.4467 18.6681 11.7434 18.3715 11.7434 18.0056V16.0181H13.0689V18.0056C13.0689 18.3715 13.3656 18.6681 13.7316 18.6681H15.7198V19.9931Z"
+                    fill="#285995" />
+                  <path
+                    d="M34.0113 27.943H33.3485V21.4909C33.3485 20.7833 33.1227 20.1236 32.7495 19.5912L28.9855 14.216C28.6141 13.6849 28.0053 13.3679 27.3567 13.3679H23.4075V12.3079C23.4075 11.212 22.5156 10.3204 21.4193 10.3204H15.7198V7.93534C15.7198 6.10536 14.237 4.6228 12.4061 4.6228C10.579 4.6228 9.09244 6.10881 9.09244 7.93534V10.3204H4.05566C2.95937 10.3204 2.06746 11.212 2.06746 12.3079V27.943H1.40472C1.0387 27.943 0.741989 28.2396 0.741989 28.6056C0.741989 28.9715 1.0387 29.2681 1.40472 29.2681H4.50155C4.47007 29.4866 4.4533 29.7076 4.4533 29.9306C4.4533 32.4877 6.53442 34.5681 9.09244 34.5681C11.6505 34.5681 13.7316 32.4877 13.7316 29.9306C13.7316 29.7076 13.7148 29.4799 13.6833 29.2614H23.4558C23.4243 29.4799 23.4075 29.7076 23.4075 29.9306C23.4075 32.4877 25.4886 34.5681 28.0466 34.5681C30.6047 34.5681 32.6858 32.4877 32.6858 29.9306C32.6858 29.7076 32.669 29.4866 32.6375 29.2681H34.0113C34.3772 29.2681 34.674 28.9715 34.674 28.6056C34.674 28.2396 34.3772 27.943 34.0113 27.943ZM10.4179 7.93534C10.4179 6.83942 11.3098 5.94782 12.4061 5.94782C13.5042 5.94782 14.3943 6.8375 14.3943 7.93534V10.3204H10.4179V7.93534ZM9.09244 33.2431C7.26529 33.2431 5.77877 31.7571 5.77877 29.9306C5.77877 28.0979 7.27271 26.618 9.09244 26.618C10.9189 26.618 12.4061 28.104 12.4061 29.9306C12.4061 31.7571 10.9196 33.2431 9.09244 33.2431ZM22.082 27.943H13.2828C12.521 26.3406 10.8927 25.293 9.09244 25.293C7.29206 25.293 5.66372 26.3407 4.90204 27.943H3.39293V12.3079C3.39293 11.9426 3.69023 11.6454 4.05566 11.6454H21.4193C21.7847 11.6454 22.082 11.9426 22.082 12.3079C22.082 13.2034 22.082 27.6343 22.082 27.943ZM23.4075 14.6929H27.3567C27.5729 14.6929 27.7755 14.7984 27.8994 14.9755L31.4129 19.993H24.3448L25.8644 18.4739C26.1232 18.2152 26.1232 17.7957 25.8644 17.5369C25.6055 17.2782 25.186 17.2782 24.9271 17.5369L23.4075 19.056V14.6929ZM28.0466 33.2431C26.2195 33.2431 24.733 31.7571 24.733 29.9306C24.733 28.0939 26.2305 26.618 28.0466 26.618C29.4473 26.618 30.7029 27.5057 31.1711 28.8268C31.1711 28.8268 31.1711 28.8269 31.1712 28.827C31.2966 29.1809 31.3603 29.5522 31.3603 29.9306C31.3603 31.7571 29.8738 33.2431 28.0466 33.2431ZM32.0231 27.5436C31.1954 26.1687 29.6928 25.293 28.0466 25.293C26.2463 25.293 24.6179 26.3407 23.8562 27.943H23.4075V21.318H32.0152C32.0201 21.3753 32.0231 21.4329 32.0231 21.4909V27.5436Z"
+                    fill="#285995" />
+                  <path
+                    d="M28.0467 27.9431C26.9504 27.9431 26.0585 28.8347 26.0585 29.9307C26.0585 31.0266 26.9504 31.9182 28.0467 31.9182C29.1429 31.9182 30.0349 31.0266 30.0349 29.9307C30.0349 28.8347 29.1429 27.9431 28.0467 27.9431ZM28.0467 30.5932C27.6812 30.5932 27.3839 30.296 27.3839 29.9307C27.3839 29.5654 27.6812 29.2681 28.0467 29.2681C28.4121 29.2681 28.7094 29.5654 28.7094 29.9307C28.7094 30.296 28.4121 30.5932 28.0467 30.5932Z"
+                    fill="#285995" />
+                  <path
+                    d="M9.09245 27.9431C7.99616 27.9431 7.10425 28.8347 7.10425 29.9307C7.10425 31.0266 7.99616 31.9182 9.09245 31.9182C10.1887 31.9182 11.0807 31.0266 11.0807 29.9307C11.0807 28.8347 10.1887 27.9431 9.09245 27.9431ZM9.09245 30.5932C8.72702 30.5932 8.42972 30.296 8.42972 29.9307C8.42972 29.5654 8.72702 29.2681 9.09245 29.2681C9.45789 29.2681 9.75519 29.5654 9.75519 29.9307C9.75519 30.296 9.45789 30.5932 9.09245 30.5932Z"
+                    fill="#285995" />
+                  <path
+                    d="M12.4061 0.647705C12.0401 0.647705 11.7434 0.944323 11.7434 1.31024V2.63531C11.7434 3.00123 12.0401 3.29785 12.4061 3.29785C12.7722 3.29785 13.0689 3.00123 13.0689 2.63531V1.31024C13.0689 0.944323 12.7722 0.647705 12.4061 0.647705Z"
+                    fill="#285995" />
+                  <path
+                    d="M7.10425 7.27295H5.77878C5.41275 7.27295 5.11604 7.56954 5.11604 7.93542C5.11604 8.30131 5.41275 8.5979 5.77878 8.5979H7.10425C7.47028 8.5979 7.76698 8.30131 7.76698 7.93542C7.76698 7.56954 7.47028 7.27295 7.10425 7.27295Z"
+                    fill="#285995" />
+                  <path
+                    d="M19.0335 7.27295H17.708C17.342 7.27295 17.0453 7.56954 17.0453 7.93542C17.0453 8.30131 17.342 8.5979 17.708 8.5979H19.0335C19.3994 8.5979 19.6962 8.30131 19.6962 7.93542C19.6962 7.56954 19.3994 7.27295 19.0335 7.27295Z"
+                    fill="#285995" />
+                  <path
+                    d="M17.561 2.78243C17.3021 2.5237 16.8826 2.5237 16.6237 2.78243L15.6866 3.71904C15.4278 3.9777 15.4278 4.39713 15.6866 4.65586C15.9454 4.91452 16.365 4.91452 16.6239 4.65586L17.561 3.71924C17.8198 3.46058 17.8198 3.04115 17.561 2.78243Z"
+                    fill="#285995" />
+                  <path
+                    d="M9.12573 3.71902L8.18862 2.78238C7.92982 2.52371 7.51018 2.52371 7.25131 2.78238C6.99245 3.04105 6.99252 3.46048 7.25131 3.71922L8.18842 4.65585C8.44722 4.91452 8.86686 4.91452 9.12573 4.65585C9.38452 4.39718 9.38452 3.97775 9.12573 3.71902Z"
+                    fill="#285995" />
+                </svg>
+  
+              </div>
+              <h5 class="gba card-title text-center pb-4">BLS AED + Injuries</h5>
+              <ul id="doa" style="list-style: none; ">
+                <li id="berin">
+                  <div class="row">
+                    <div class="col-1">
+                      <svg width="10" height="10" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="4" r="3" stroke="#285995" stroke-width="2" />
+                      </svg>
+                    </div>
+                    <div class="col-10 offset-1">
+                      <p class="yazi">Recognizing and responding to health and life threatening condition </p>
+                    </div>
+                  </div>
+                </li>
+                <script>
+                  let yazilar = [
+                    "Assessment of the injured person's condition",
+                    "AED CPR for Adults and Children",
+                    "Symptoms and characteristics, incl. loss of consciousness, heart disease, diabetes, convulsions",
+                    "Injuries: wounds, hemorrhages, fractures, burns",
+                    "Certificate confirming participation in the training and teaching materials"
+                  ]
+                  var kutu = document.getElementById('doa')
+                  for (let index = 0; index < yazilar.length; index++) {
+                    var kopya = document.createElement('li')
+                    kopya.innerHTML = document.getElementById('berin').innerHTML
+  
+                    kopya.classList = document.getElementById('berin').classList
+                    kutu.appendChild(kopya.cloneNode(true))
+                  }
+                  const yazi = document.querySelectorAll('.yazi')
+                  for (let index = 0; index < yazilar.length; index++) {
+                    console.log(yazi)
+                    yazi[index + 1].innerHTML = yazilar[index]
+                  }
+                </script>
+              </ul>
+              <h2 class="zt zb text-center pb-1">$40
+                <small class="et">
+                  /month
+                </small>
+              </h2>
+              <form class="d-flex justify-content-center pt-3">
+                <button class="btn text-white rounded-pill px-5 py-3 " style="background-color:#285995;"
+                  type="submit">START NOW </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="alengirli col-lg-3">
+          <div class="card border-0">
+            <div class="card-body px-0">
+              <div class="text-center pb-4">
+                <svg width="39" height="35" viewBox="0 0 39 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M31.9288 4.52832C31.5141 4.52832 31.1776 4.8647 31.1776 5.27917C31.1776 5.69365 31.5141 6.03003 31.9288 6.03003C32.3435 6.03003 32.6801 5.69365 32.6801 5.27917C32.6801 4.86463 32.3435 4.52832 31.9288 4.52832Z"
+                    fill="#285995" />
+                  <path
+                    d="M35.8323 3.77156C34.0394 1.75716 31.5526 0.64778 28.8299 0.64778C25.8528 0.64778 23.1361 1.80139 20.9737 3.98395C20.2218 4.74283 19.6598 5.50104 19.2702 6.10274C18.8806 5.50112 18.3186 4.74298 17.5666 3.98395C15.4043 1.80132 12.6877 0.647705 9.71043 0.647705C4.0117 0.647705 0.0379944 5.41363 0.0379944 11.0799C0.0379944 18.734 8.15188 25.1787 18.7782 34.3846C18.9193 34.507 19.0948 34.5681 19.2702 34.5681C19.4456 34.5681 19.621 34.507 19.7622 34.3846C30.4138 25.1567 38.5024 18.7233 38.5024 11.0799C38.5024 8.3016 37.5541 5.70614 35.8323 3.77156ZM19.2702 32.8237C9.23572 24.1433 1.54051 17.9088 1.54051 11.0799C1.54051 5.98889 5.05279 2.14978 9.71043 2.14978C12.2966 2.14978 14.5681 3.11001 16.4621 5.00365C17.9049 6.44633 18.5781 7.91866 18.5847 7.93338C18.7056 8.20276 18.9736 8.37579 19.2691 8.37639C19.2695 8.37639 19.27 8.37639 19.2705 8.37639C19.5659 8.37639 19.8342 8.20269 19.9557 7.93338C19.9623 7.91866 20.6355 6.4464 22.0784 5.00365C23.9722 3.10993 26.2438 2.14978 28.83 2.14978C33.4877 2.14978 36.9999 5.98889 36.9999 11.0799C36.9999 18.063 28.7969 24.5826 19.2702 32.8237Z"
+                    fill="#285995" />
+                  <path
+                    d="M34.5564 7.20362C34.3637 6.83624 33.9096 6.69475 33.5422 6.88731C33.1748 7.07993 33.0331 7.53383 33.2258 7.90114C33.7217 8.84641 33.9947 9.9753 33.9947 11.0799C33.9947 13.2499 32.9615 15.5531 30.7432 18.3282C30.4841 18.6521 30.537 19.1247 30.861 19.3837C31.1872 19.6443 31.6596 19.5878 31.9169 19.2659C34.3596 16.2102 35.4973 13.609 35.4973 11.0799C35.4973 9.71726 35.1719 8.37689 34.5564 7.20362Z"
+                    fill="#285995" />
+                  <path
+                    d="M26.4822 15.0424H22.2752V10.8367C22.2752 10.4219 21.9388 10.0857 21.5239 10.0857H17.0164C16.6015 10.0857 16.2651 10.4219 16.2651 10.8367V15.0424H12.0581C11.6432 15.0424 11.3069 15.3786 11.3069 15.7934V20.2994C11.3069 20.7142 11.6432 21.0504 12.0581 21.0504H16.2651V25.2561C16.2651 25.6709 16.6015 26.0071 17.0164 26.0071H21.5239C21.9388 26.0071 22.2752 25.6709 22.2752 25.2561V21.0504H26.4822C26.8971 21.0504 27.2335 20.7142 27.2335 20.2994V15.7934C27.2335 15.3786 26.8971 15.0424 26.4822 15.0424ZM25.7309 19.5483H21.5239C21.109 19.5483 20.7727 19.8846 20.7727 20.2993V24.505H17.7676V20.2993C17.7676 19.8846 17.4313 19.5483 17.0164 19.5483H12.8094V16.5443H17.0164C17.4313 16.5443 17.7676 16.2081 17.7676 15.7933V11.5876H20.7727V15.7933C20.7727 16.2081 21.109 16.5443 21.5239 16.5443H25.7309V19.5483Z"
+                    fill="#285995" />
+                </svg>
+              </div>
+              <h5 class="gba card-title text-center pb-4" style="color: #285995;">BLS AED COURSE</h5>
+              <ul id="liste" style="list-style: none; ">
+                <li id="dongu">
+                  <div class="row">
+                    <div class="col-1">
+                      <svg width="10" height="10" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="4" r="3" stroke="#285995" stroke-width="2" />
+                      </svg>
+                    </div>
+                    <div class="col-10 offset-1">
+                      <p class="write">Recognizing and responding to health and life threatening condition </p>
+                    </div>
+                  </div>
+                </li>
+                <script>
+                  let notes = [
+                    "Assessment of the injured person's condition",
+                    "AED CPR for Adults and Children",
+                    "Symptoms and characteristics, incl. loss of consciousness, heart disease, diabetes, convulsions",
+                    "Certificate confirming participation in the training and teaching materials"
+                  ]
+                  var box = document.getElementById('liste')
+                  for (let index = 0; index < notes.length; index++) {
+                    var copy = document.createElement('li')
+                    copy.innerHTML = document.getElementById('dongu').innerHTML
+  
+                    copy.classList = document.getElementById('dongu').classList
+                    box.appendChild(copy.cloneNode(true))
+                  }
+                  const write = document.querySelectorAll('.write')
+                  for (let index = 0; index < notes.length; index++) {
+                    console.log(write)
+                    write[index + 1].innerHTML = notes[index]
+                  }
+                </script>
+              </ul>
+              <h2 class="zt za text-center pb-2">$45
+                <small class="et">
+                  /month
+                </small>
+              </h2>
+              <form class="d-flex justify-content-center pt-2">
+                <button class="btn text-white rounded-pill px-5 py-3 " style="background-color:#285995;"
+                  type="submit">START NOW </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row text-center">
+        <div class="col-lg">
+          <h2 class="bda pt-5">Reviews</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row slider ">
+        <div class="col-lg-3 mb-3 ">
+          <div class="daireclass text-center pt-4">NY</div>
+          <div class="card ea pt-2 " style="width: 25rem;">
+            <div class="card-body pt-5">
+              <h5 class="xyz card-title text-center">Nicole yasmin</h5>
+              <p class="xyz card-text text-center py-3 pb-5">Fantastic training course really loved it & the trainer was
+                very helpful & very good explaining the course thought out both days I would recommend to anyone it’s
+                fantastic service.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-3 ">
+          <div class="daireclass text-center pt-4">HM</div>
+          <div class="card ea pt-2 " style="width: 25rem;">
+            <div class="card-body text-center pt-5 ">
+              <h5 class="xyz card-title">Hannah Maryn</h5>
+              <div class="pb-2">
+                <p class="xyz card-text py-3 pb-4">The course gave me all of the information I needed to know to be a
+                  fire warden. However I just feel it wasn’t very interactive, it was just us sitting and listening for
+                  4 hours. It would have been nice to have more videos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-3 ">
+          <div class="daireclass text-center pt-4">ML</div>
+          <div class="card ea" style="width: 25rem;">
+            <div class="card-body text-center pt-5">
+              <h5 class="xyz card-title">Michel luton</h5>
+              <p class="xyz card-text py-3 pb-5">The course gave an update to changes and improved my awareness of first
+                aid , and things that have been forgotten, a great refresher.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-3 ">
+          <div class="daireclass text-center pt-4">NY</div>
+          <div class="card ea pt-2 " style="width: 25rem;">
+            <div class="card-body pt-5">
+              <h5 class="xyz card-title text-center">Nicole yasmin</h5>
+              <p class="xyz card-text text-center py-3 pb-5">Fantastic training course really loved it & the trainer was
+                very helpful & very good explaining the course thought out both days I would recommend to anyone it’s
+                fantastic service.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-3">
+          <div class="daireclass text-center pt-4 ">HM</div>
+          <div class="card ea" style="width: 25rem;">
+            <div class="card-body text-center pt-5">
+              <h5 class="xyz card-title">Hannah Maryn</h5>
+              <p class="xyz card-text py-3 pb-5">The course gave me all of the information I needed to know to be a fire
+                warden. However I just feel it wasn’t very interactive, it was just us sitting and listening for 4
+                hours. It would have been nice to have more videos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-3 ">
+          <div class="daireclass text-center pt-4">ML</div>
+          <div class="card ea" style="width: 25rem;">
+            <div class="card-body text-center pt-5">
+              <h5 class="xyz card-title">Michel luton</h5>
+              <div class="pb-1">
+                <div class="pb-1">
+                  <p class="xyz card-text py-3 pb-5">The course gave an update to changes and improved my awareness of
+                    first aid , and things that have been forgotten, a great refresher.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row text-center">
+       <div class="col-lg">
+        <h2 class="bda pt-5">Contact</h2>
+       </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-lg-7 ">
+          <img class="saa img-fluid" src="image/cpr-first-aid-training-concept (1) 1.png" alt="">
+        </div>
+        <div class="col-lg-5 pe-3">
+          <p class="fontt">We will answer any questions you may have. We encourage you to use our contact form.</p>
+          <div class="row ">
+            <div class="col-lg-6">
+              <input class="font abo form-control " placeholder="First Name" type="text">
+            </div>
+            <div class="col-lg-6">
+              <input class="font abo form-control" placeholder="Last Name" type="text">
+            </div>
+          </div>
+          <div class="row my-4">
+            <div class="col-lg">
+              <input class="font aboo form-control" placeholder="E-mail" type="text">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg">
+              <textarea class="font abooo form-control" placeholder="Messages" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+          <form class="d-flex  ">
+            <button class="btn text-white rounded-pill px-5 py-3 " style="background-color:#285995;" type="submit">Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg py-5 " style="background-color: #285995;">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="col-5 text-center">
+            <a class="bbddaa nav-link active " aria-current="page" href="#">© 2021 - first aid academy. All rights Reserved.</a>
+          </div>
+          <div class="col-7">
+          <ul class="navbar-nav justify-content-center" style="gap: 5rem;">
+           <li class="nav-item">
+              <a class="beda nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="beda nav-link" href="#">F&Q</a>
+            </li>
+            <li class="nav-item">
+              <a class="beda nav-link " href="#" tabindex="-1" aria-disabled="true">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="beda nav-link" href="#">FACEBOOK</a>
+            </li>
+            <li class="nav-item">
+              <a class="beda nav-link " href="https://twitter.com/bdalaca" tabindex="-1" aria-disabled="true">TWITTER</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $('.slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,319 @@
+.bk {
+    background: url('image/group-diverse-people-cpr-training-class\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yea{
+    background: #E7ECEC;
+}
+.ab {
+
+    max-width: 110%;
+    
+    height: 110%; 
+}
+.aaa{
+    max-width: 130%;
+    
+    height: 130%; 
+}
+.bbb{
+    max-width: 100%;
+    
+    height: 140%; 
+}
+.alengirli{
+    
+    border: 2px dashed #E7ECEC;
+    box-sizing: border-box;
+    border-radius: 20px;
+     height: 574px;
+     
+}
+.alengirli:hover{
+    border: 2px dashed #285995;
+    border-radius: 20px;   
+}
+.za{
+    padding-top: 4rem;
+}
+.zb{
+    padding-top: 1rem;
+}
+.zc{
+    padding-top: 14rem;
+}
+.ea{
+   
+    border: 1px solid #E7ECEC;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.ea:hover{
+    border: 2px dashed #285995;
+}
+.daireclass {
+    background-color:#285995;;
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    position: relative;
+    top: 30px;
+    left: 40%;
+    z-index: 9999999;
+   }
+   .x{
+       z-index: 1;
+   }
+   .abo{
+    
+    border:0;
+    background: #E7ECEC;
+    border-radius: 20px;
+    width: 100%;
+    height: 150%;
+
+   }
+   .abo::placeholder{
+       padding-left: 10px;
+   }
+   .aboo{
+    border:0;
+    background: #E7ECEC;
+    border-radius: 20px;
+    width: 100%;
+    height: 150%;
+   }
+   .aboo::placeholder{
+    padding-left: 10px;
+}
+.abooo{
+    border:0;
+    background: #E7ECEC;
+    border-radius: 20px;
+    width: 100%;
+    height: 85%;
+   }
+   .abooo::placeholder{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.saa{
+    width: 90%;
+    
+    height: 80%; 
+}
+
+h2.baslik {
+  font-family: Montserrat ;
+  font-weight: 600;
+  font-style: 400;
+  font-size: 18px;
+  line-height: 21, 94px;
+  color: #383838;
+}
+
+li.tıkla {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: 400;
+  font-size: 16px;
+  line-height: 14.63px;
+  color: #383838;
+}
+
+button.btn {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+h2.bda {
+  font-family: Montserrat;
+  font-style: 400;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #383838;
+}
+
+h1.kfg {
+  font-family: Open Sans;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+h2.kfg {
+  font-family: Open Sans;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #285995 !important;
+}
+
+p.paragraf {
+  font-family: Open Sans;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #285995;
+}
+
+h2.ra {
+  font-family: Open Sans;
+  font-style: 400;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  color: #383838;
+}
+
+p.ra {
+  font-family: Open Sans;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #383838;
+
+}
+
+a.aabb {
+  font-family: Montserrat;
+  font-style: 400;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #285995;
+}
+
+h2.abc {
+  font-family: Open Sans;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 27px;
+  color: #383838;
+}
+
+p.abc {
+  font-family: Open Sans;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #383838;
+}
+
+.alengirli {
+  font-family: Open Sans;
+  font-style: 400;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #383838;
+}
+
+h2.zt {
+
+  font-family: Montserrat;
+  font-style: 400;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  color: #285995;
+}
+
+small.et {
+  font-family: Montserrat;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #383838;
+
+}
+
+h5.gba {
+  font-family: Open Sans;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #383838;
+}
+
+div.daireclass {
+  font-family: Montserrat;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+h5.xyz {
+  font-family: Montserrat;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #383838;
+}
+
+p.xyz {
+  font-family: Montserrat;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #383838;
+}
+p.fontt{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #383838;
+}
+input.font{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #383838;
+}
+a.bbddaa{
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+a.beda{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
